@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, input, button{
+    font-family: 'Kanit', sans-serif;
+}
+input, button{
+    font-size: 16px;
+}
+.header-bar {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2F58CD;
+    color: whitesmoke;
+}
+
+.shadow {
+    box-shadow: 5px 5px 10px rgba(154, 160, 185, .05), 0 15px 40px rgba(166, 173, 201, .2);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+main{
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.input-section{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    border: 1px solid #3795BD;
+    border-radius: 10px;
+}
+.input-section > h2{
+    text-align: center;
+    color: #2F58CD;
+}
+.input-section > form > .input {
+    margin: 8px 0;
+}
+
+.input-section > form > button {
+    background-color: #2F58CD;
+    color: whitesmoke;
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+}
+.input-section > form > button > span{
+    font-weight: bold;
+} 
+.input-section > form > .input > input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.input-section > form > .input > label {
+    color: #2F58CD;
+    font-weight: bold;
+}
+.input-section >form > .input-inline{
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+}
+.input-section >form > .input-inline > label {
+    color: #2F58CD;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.search-bar{
+    margin: 16px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    border: 1px solid #3795BD;
+    border-radius: 10px;
+}
+.search-bar > h2 {
+    color: #2F58CD;
+}
+.search-bar > form {
+    padding: 16px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 1fr 0.5fr;
+    grid-gap: 10px;
+}
+.search-bar > form > label {
+    display: flex;
+    align-items: center;
+}
+.search-bar > form > input {
+    padding: 5px;
+    border-radius: 5px;
+}
+.search-bar > form > button{
+    background-color: #2F58CD;
+    color: whitesmoke;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.book-shelf {
+    margin: 16px 0 0 0;
+    border: 1px solid #3795BD;
+    padding: 16px;
+    border-radius: 10px;
+}
+.book-shelf > h2{
+    color: #2F58CD;
+}
+
+.book-shelf > {
+    padding: 20px;
+}
+.book-shelf > .book-item{
+    padding: 8px 16px 16px 16px;
+    border: 1px solid #3795BD;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.book-shelf >  .book-item > h3, p {
+    margin: 1px 0;
+}
+.book-shelf >  .book-item > .action > button{
+    border: 0;
+    padding: 5px;
+    margin: 0 5px 0 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.book-shelf >  .book-item > .action > .green{
+    background-color: darkgreen;
+    color: whitesmoke;
+}
+.book-shelf >.book-item > .action > .red {
+    background-color: darkred;
+    color: white;
+}
+
